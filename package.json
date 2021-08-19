@@ -1,0 +1,7 @@
+{
+  "name": "react-library-boilerplate",
+  "version": "0.0.1",
+  "description": "React Library Boilerplate",
+  "main": "index.js",
+  "license": "MIT"
+}
