@@ -2,8 +2,13 @@
   "name": "react-library-boilerplate",
   "version": "0.0.1",
   "description": "React Library Boilerplate",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
+  "scripts": {
+    "types": "tsc --emitDeclarationOnly",
+    "build": "rimraf lib && node ./scripts/build.js && npm run types"
+  },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0"
@@ -22,5 +27,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.21",
+    "rimraf": "^3.0.2"
   }
 }
