@@ -13,6 +13,7 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-empty-interface': 'off',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
   },
