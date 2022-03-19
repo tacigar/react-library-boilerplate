@@ -9,8 +9,8 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'prettier',
     'plugin:storybook/recommended',
+    'prettier',
   ],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
